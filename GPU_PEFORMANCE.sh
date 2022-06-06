@@ -17,6 +17,5 @@ echo 1> /sys/module/ged/parameters/boost_gpu_enable
 echo 0> /sys/module/ged/parameters/gpu_debug_enable
 echo 0> /sys/module/ged/parameters/gpu_dvfs_enable
 echo 25 > /sys/module/ged/parameters/gpu_idle
-echo 1 > /sys/module/ged/parameters/
-enable_game_self_frc_detect
+echo 1 > /sys/module/ged/parameters/enable_game_self_frc_detect
 setenforce $SELINUX_STATUS
